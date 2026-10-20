@@ -12,7 +12,6 @@
   <script src="https://cdn.tailwindcss.com"></script>
 
   <style>
-    /* 100% Reliable Fallback Styling */
     * { box-sizing: border-box; }
     body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #0b1329; color: #f1f5f9; }
     a { text-decoration: none; }
@@ -28,6 +27,7 @@
       <nav style="display: flex; gap: 16px; align-items: center; font-size: 13px; font-weight: 700;">
         <a href="#buy" style="color: #cbd5e1;">Buy Websites</a>
         <a href="#sell" style="color: #cbd5e1;">Sell Website</a>
+        <a href="https://vashumehra.github.io/edwin-jobs/" target="_blank" style="color: #38bdf8;">Edwin Jobs Portal ↗</a>
         <a href="#custom" style="background-color: #f59e0b; color: #0b1329; padding: 7px 14px; border-radius: 8px; font-weight: 800;">Create Website</a>
       </nav>
     </div>
@@ -70,8 +70,8 @@
           <div>
             <div style="color: #f59e0b; font-size: 22px; font-weight: 900; margin-bottom: 14px;">₹4,999</div>
             <div style="display: flex; gap: 8px;">
-              <a href="#contact" style="flex: 1; text-align: center; background-color: #1e293b; color: #ffffff; padding: 9px; border-radius: 8px; font-size: 12px; font-weight: 700;">Preview</a>
-              <a href="#contact" style="flex: 1; text-align: center; background-color: #f59e0b; color: #0b1329; padding: 9px; border-radius: 8px; font-size: 12px; font-weight: 800;">Buy Now</a>
+              <a href="#custom" style="flex: 1; text-align: center; background-color: #1e293b; color: #ffffff; padding: 9px; border-radius: 8px; font-size: 12px; font-weight: 700;">Inquire</a>
+              <a href="#custom" style="flex: 1; text-align: center; background-color: #f59e0b; color: #0b1329; padding: 9px; border-radius: 8px; font-size: 12px; font-weight: 800;">Buy Now</a>
             </div>
           </div>
         </div>
@@ -86,8 +86,8 @@
           <div>
             <div style="color: #f59e0b; font-size: 22px; font-weight: 900; margin-bottom: 14px;">₹2,999</div>
             <div style="display: flex; gap: 8px;">
-              <a href="#contact" style="flex: 1; text-align: center; background-color: #1e293b; color: #ffffff; padding: 9px; border-radius: 8px; font-size: 12px; font-weight: 700;">Preview</a>
-              <a href="#contact" style="flex: 1; text-align: center; background-color: #f59e0b; color: #0b1329; padding: 9px; border-radius: 8px; font-size: 12px; font-weight: 800;">Buy Now</a>
+              <a href="#custom" style="flex: 1; text-align: center; background-color: #1e293b; color: #ffffff; padding: 9px; border-radius: 8px; font-size: 12px; font-weight: 700;">Inquire</a>
+              <a href="#custom" style="flex: 1; text-align: center; background-color: #f59e0b; color: #0b1329; padding: 9px; border-radius: 8px; font-size: 12px; font-weight: 800;">Buy Now</a>
             </div>
           </div>
         </div>
@@ -102,8 +102,8 @@
           <div>
             <div style="color: #f59e0b; font-size: 22px; font-weight: 900; margin-bottom: 14px;">₹1,999</div>
             <div style="display: flex; gap: 8px;">
-              <a href="#contact" style="flex: 1; text-align: center; background-color: #1e293b; color: #ffffff; padding: 9px; border-radius: 8px; font-size: 12px; font-weight: 700;">Preview</a>
-              <a href="#contact" style="flex: 1; text-align: center; background-color: #f59e0b; color: #0b1329; padding: 9px; border-radius: 8px; font-size: 12px; font-weight: 800;">Buy Now</a>
+              <a href="#custom" style="flex: 1; text-align: center; background-color: #1e293b; color: #ffffff; padding: 9px; border-radius: 8px; font-size: 12px; font-weight: 700;">Inquire</a>
+              <a href="#custom" style="flex: 1; text-align: center; background-color: #f59e0b; color: #0b1329; padding: 9px; border-radius: 8px; font-size: 12px; font-weight: 800;">Buy Now</a>
             </div>
           </div>
         </div>
@@ -112,73 +112,77 @@
     </div>
   </section>
 
-  <!-- Sell & Custom Website Forms (Connected to Zoho CRM) -->
+  <!-- Sell & Custom Website Forms (Connected directly to Zoho Contacts) -->
   <section id="sell" style="padding: 70px 20px; max-width: 1200px; margin: 0 auto;">
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; align-items: start;">
       
-      <!-- Form 1: Sell Website (Zoho CRM) -->
+      <!-- Form 1: Sell Website -->
       <div style="background-color: #060b18; border: 1px solid #1e293b; padding: 30px 24px; border-radius: 16px; box-shadow: 0 15px 35px rgba(0,0,0,0.4);">
         <h3 style="font-size: 20px; font-weight: 800; color: #f59e0b; margin: 0 0 6px 0;">Sell Your Website</h3>
-        <p style="color: #94a3b8; font-size: 12px; margin: 0 0 20px 0;">Apni website ya source code list karein. Direct aapke Zoho CRM mein lead aayegi.</p>
+        <p style="color: #94a3b8; font-size: 12px; margin: 0 0 20px 0;">Apni website list karein. Details seedhe hamare CRM ke Contacts mein save hongi.</p>
         
-        <form action='https://crm.zoho.in/crm/WebToLeadForm' method='POST' accept-charset='UTF-8' style="display: flex; flex-direction: column; gap: 14px;">
-          <!-- Zoho Tokens -->
-          <input type='hidden' name='xnQsjsdp' value='70bd2de86f486e7e9eed5b2b898d9eeff3372df88304561bb8df3ee667d4b61f'>
+        <form action='https://crm.zoho.in/crm/WebToContactForm' method='POST' accept-charset='UTF-8' style="display: flex; flex-direction: column; gap: 14px;">
+          <!-- Hidden Tokens for Contacts -->
+          <input type='hidden' name='xnQsjsdp' value='d04a31dc536f12a81791f96963200707cbaa33b9de349dcf355ae1bba47e7cc8'>
           <input type='hidden' name='zc_gad' id='zc_gad' value=''>
-          <input type='hidden' name='xmIwtLD' value='ea5f38600328308ca0059f0df96472bb264fb165ae65d81633432105c920f1cbcfd641d9859e1757d56216195e0ee964'>
-          <input type='hidden' name='actionType' value='TGVhZHM='>
+          <input type='hidden' name='xmIwtLD' value='2dfcda1e545f9d01c79310e599c00f46dd34ea3e4d60cf2a86d6976ae6798b106f7f0cd9aa7b1239a6a5e5a40da3990f'>
+          <input type='hidden' name='actionType' value='Q29udGFjdHM='>
           <input type='hidden' name='returnURL' value='https://vashumehra.github.io/mony/'>
-          <input type='hidden' name='Lead Source' value='WebMarket - Sell Website'>
+          <input type='hidden' name='Lead Source' value='Online Store'>
+          <!-- Department Tag: Website Sell -->
+          <input type='hidden' name='Department' value='Website Marketplace (Sell)'>
 
           <div>
-            <label style="display: block; font-size: 12px; font-weight: 600; margin-bottom: 5px; color: #cbd5e1;">Aapka Naam *</label>
-            <input type="text" name="Last Name" placeholder="Full Name" required style="width: 100%; background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 11px 12px; color: #ffffff; font-size: 13px; outline: none;">
+            <label style="display: block; font-size: 12px; font-weight: 600; margin-bottom: 5px; color: #cbd5e1;">Aapka Naam (Last Name / Full Name) *</label>
+            <input type="text" name="Last Name" placeholder="Full Name" required style="width: 100%; box-sizing: border-box; background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 11px 12px; color: #ffffff; font-size: 13px; outline: none;">
           </div>
           <div>
-            <label style="display: block; font-size: 12px; font-weight: 600; margin-bottom: 5px; color: #cbd5e1;">WhatsApp / Mobile *</label>
-            <input type="tel" name="Phone" placeholder="+91 9876543210" required style="width: 100%; background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 11px 12px; color: #ffffff; font-size: 13px; outline: none;">
+            <label style="display: block; font-size: 12px; font-weight: 600; margin-bottom: 5px; color: #cbd5e1;">WhatsApp / Mobile Number *</label>
+            <input type="tel" name="Phone" placeholder="+91 9876543210" required style="width: 100%; box-sizing: border-box; background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 11px 12px; color: #ffffff; font-size: 13px; outline: none;">
           </div>
           <div>
             <label style="display: block; font-size: 12px; font-weight: 600; margin-bottom: 5px; color: #cbd5e1;">Email Address</label>
-            <input type="email" name="Email" placeholder="example@gmail.com" style="width: 100%; background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 11px 12px; color: #ffffff; font-size: 13px; outline: none;">
+            <input type="email" name="Email" placeholder="example@gmail.com" style="width: 100%; box-sizing: border-box; background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 11px 12px; color: #ffffff; font-size: 13px; outline: none;">
           </div>
           <div>
-            <label style="display: block; font-size: 12px; font-weight: 600; margin-bottom: 5px; color: #cbd5e1;">Website URL & Price (₹) *</label>
-            <input type="text" name="Description" placeholder="URL: https://... | Selling Price: ₹5000" required style="width: 100%; background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 11px 12px; color: #ffffff; font-size: 13px; outline: none;">
+            <label style="display: block; font-size: 12px; font-weight: 600; margin-bottom: 5px; color: #cbd5e1;">Website URL & Asking Price (₹) *</label>
+            <input type="text" name="Account Name" placeholder="URL: https://... | Price: ₹5,000" required style="width: 100%; box-sizing: border-box; background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 11px 12px; color: #ffffff; font-size: 13px; outline: none;">
           </div>
           <button type="submit" style="background-color: #f59e0b; color: #0b1329; border: none; font-weight: 800; font-size: 13px; padding: 12px; border-radius: 8px; cursor: pointer; text-transform: uppercase; margin-top: 6px;">Submit for Listing</button>
         </form>
       </div>
 
-      <!-- Form 2: Custom Website Order (Zoho CRM) -->
+      <!-- Form 2: Custom Website Order -->
       <div id="custom" style="background-color: #060b18; border: 1px solid #1e293b; padding: 30px 24px; border-radius: 16px; box-shadow: 0 15px 35px rgba(0,0,0,0.4);">
         <h3 style="font-size: 20px; font-weight: 800; color: #f59e0b; margin: 0 0 6px 0;">Apply for Custom Website</h3>
-        <p style="color: #94a3b8; font-size: 12px; margin: 0 0 20px 0;">Naye business ke liye website order karein. Data sidha Zoho CRM mein aayega.</p>
+        <p style="color: #94a3b8; font-size: 12px; margin: 0 0 20px 0;">Naye business ke liye website order karein. Contacts me alag department dikhega.</p>
         
-        <form action='https://crm.zoho.in/crm/WebToLeadForm' method='POST' accept-charset='UTF-8' style="display: flex; flex-direction: column; gap: 14px;">
-          <!-- Zoho Tokens -->
-          <input type='hidden' name='xnQsjsdp' value='70bd2de86f486e7e9eed5b2b898d9eeff3372df88304561bb8df3ee667d4b61f'>
+        <form action='https://crm.zoho.in/crm/WebToContactForm' method='POST' accept-charset='UTF-8' style="display: flex; flex-direction: column; gap: 14px;">
+          <!-- Hidden Tokens for Contacts -->
+          <input type='hidden' name='xnQsjsdp' value='d04a31dc536f12a81791f96963200707cbaa33b9de349dcf355ae1bba47e7cc8'>
           <input type='hidden' name='zc_gad' id='zc_gad' value=''>
-          <input type='hidden' name='xmIwtLD' value='ea5f38600328308ca0059f0df96472bb264fb165ae65d81633432105c920f1cbcfd641d9859e1757d56216195e0ee964'>
-          <input type='hidden' name='actionType' value='TGVhZHM='>
+          <input type='hidden' name='xmIwtLD' value='2dfcda1e545f9d01c79310e599c00f46dd34ea3e4d60cf2a86d6976ae6798b106f7f0cd9aa7b1239a6a5e5a40da3990f'>
+          <input type='hidden' name='actionType' value='Q29udGFjdHM='>
           <input type='hidden' name='returnURL' value='https://vashumehra.github.io/mony/'>
-          <input type='hidden' name='Lead Source' value='WebMarket - Custom Build'>
+          <input type='hidden' name='Lead Source' value='Online Store'>
+          <!-- Department Tag: Custom Website -->
+          <input type='hidden' name='Department' value='Website Development (Custom Order)'>
 
           <div>
-            <label style="display: block; font-size: 12px; font-weight: 600; margin-bottom: 5px; color: #cbd5e1;">Aapka Naam / Firm Naam *</label>
-            <input type="text" name="Last Name" placeholder="Business / Personal Name" required style="width: 100%; background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 11px 12px; color: #ffffff; font-size: 13px; outline: none;">
+            <label style="display: block; font-size: 12px; font-weight: 600; margin-bottom: 5px; color: #cbd5e1;">Aapka Naam / Business Naam *</label>
+            <input type="text" name="Last Name" placeholder="Business / Personal Name" required style="width: 100%; box-sizing: border-box; background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 11px 12px; color: #ffffff; font-size: 13px; outline: none;">
           </div>
           <div>
-            <label style="display: block; font-size: 12px; font-weight: 600; margin-bottom: 5px; color: #cbd5e1;">WhatsApp / Mobile *</label>
-            <input type="tel" name="Phone" placeholder="+91 9876543210" required style="width: 100%; background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 11px 12px; color: #ffffff; font-size: 13px; outline: none;">
+            <label style="display: block; font-size: 12px; font-weight: 600; margin-bottom: 5px; color: #cbd5e1;">WhatsApp / Mobile Number *</label>
+            <input type="tel" name="Phone" placeholder="+91 9876543210" required style="width: 100%; box-sizing: border-box; background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 11px 12px; color: #ffffff; font-size: 13px; outline: none;">
           </div>
           <div>
             <label style="display: block; font-size: 12px; font-weight: 600; margin-bottom: 5px; color: #cbd5e1;">Email Address</label>
-            <input type="email" name="Email" placeholder="example@gmail.com" style="width: 100%; background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 11px 12px; color: #ffffff; font-size: 13px; outline: none;">
+            <input type="email" name="Email" placeholder="example@gmail.com" style="width: 100%; box-sizing: border-box; background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 11px 12px; color: #ffffff; font-size: 13px; outline: none;">
           </div>
           <div>
-            <label style="display: block; font-size: 12px; font-weight: 600; margin-bottom: 5px; color: #cbd5e1;">Website Type & Budget *</label>
-            <input type="text" name="Description" placeholder="e.g. E-Commerce Store, Budget: ₹3000-₹5000" required style="width: 100%; background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 11px 12px; color: #ffffff; font-size: 13px; outline: none;">
+            <label style="display: block; font-size: 12px; font-weight: 600; margin-bottom: 5px; color: #cbd5e1;">Website Category & Budget *</label>
+            <input type="text" name="Account Name" placeholder="e.g. E-Commerce / Services, Budget: ₹3000" required style="width: 100%; box-sizing: border-box; background: #0f172a; border: 1px solid #334155; border-radius: 8px; padding: 11px 12px; color: #ffffff; font-size: 13px; outline: none;">
           </div>
           <button type="submit" style="background-color: #f59e0b; color: #0b1329; border: none; font-weight: 800; font-size: 13px; padding: 12px; border-radius: 8px; cursor: pointer; text-transform: uppercase; margin-top: 6px;">Request Free Quote</button>
         </form>
@@ -186,6 +190,7 @@
 
     </div>
   </section>
+
   <!-- Contact & Support Section (Only Phone & Email) -->
   <footer id="contact" style="background-color: #060b18; border-top: 1px solid #1e293b; padding: 50px 20px 25px 20px;">
     <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 30px; margin-bottom: 40px;">
